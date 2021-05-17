@@ -1,7 +1,6 @@
-engines:
-  metrics:
-    exclude_paths:
-      - "**_test.py"
-    config:
-      languages:
-        - "Python"
+metric:
+  exclude_paths:
+    - "**_test.py"
+  config:
+    languages:
+      - "Python"
