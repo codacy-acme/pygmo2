@@ -7,3 +7,10 @@ engines:
     config:
       languages:
         - "Python"
+  duplication:
+    enabled: true
+    exclude_paths:
+      - "**_test.py"
+    config:
+      languages:
+        - "Python"
