@@ -1,6 +1,6 @@
 ---
 engines:
-  metrics:
+  metric:
     enabled: true
     exclude_paths:
       - "**_test.py"
