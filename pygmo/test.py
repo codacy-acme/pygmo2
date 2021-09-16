@@ -68,6 +68,9 @@ class core_test_case(_ut.TestCase):
         self.run_s11n_test()
 
     def run_s11n_test(self):
+        """Another string to create an error
+
+        """
         # Tests for the selection of the serialization backend.
         import cloudpickle as clpickle
         import pickle
